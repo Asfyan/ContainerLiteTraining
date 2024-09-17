@@ -15,7 +15,7 @@ jobs:
           tenant: ${{ secrets.tenant }}
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
-          image: hellointercept:v1.0
+          image: acrwh170924.azurecr.io/hellointercept:v1.0
           git_access_token: ${{ secrets.git_access_token }}
           folder: ./
           dockerfile: ./Dockerfile
